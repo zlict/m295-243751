@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  },
+  "scripts": {
+    "dev": "nodemon -i swagger-output.json aufgabe-6-2/library.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
